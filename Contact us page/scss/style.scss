@@ -16,7 +16,7 @@ main {
     .contactUs {
         .breadCrumbs {
             display: flex;
-            padding: 27px 0 13px;
+            padding: 27px 0 8px;
             color: #787878;
             font-size: 13px;
             .home {
@@ -47,7 +47,9 @@ main {
             color: #17a8a3;
         }
         .btnSubmit {
+            margin-top: 20px;
             color: white;
+            font-weight: 600;
             padding: 7px 40px;
             border: 1px solid #17a8a3;
             background-color: #17a8a3;
@@ -60,10 +62,49 @@ main {
             color: black;
             border: 1px solid #787878;
             text-decoration: none;
-            padding: 7px 40px;
+            padding: 7px 35px;
             &:hover {
                 border-color: black;
             }
         }
+        .loginTitle {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 28px;
+            padding-bottom: 15px;
+            text-transform: unset;
+            border-bottom: 1px solid #909195;
+        }
+        #comments {
+            min-height: 180px;
+        }
+        .labels {
+            font-weight: 500;
+            color: #1e1e1e;
+            font-size: 12px;
+            text-transform: capitalize;
+            font-family: Poppins, sans-serif;
+        }
+        .rte {
+            margin: 20px 0;
+        }
+        .title {
+            margin-bottom: 50px;
+        }
+        h1 {
+            font-size: 2.33333em;
+            font-family: Poppins, sans-serif;
+            font-weight: 700;
+        }
+        .secondbtn {
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and(max-width:576px) {
+    .loginTitle {
+        margin-top: 40px;
     }
 }

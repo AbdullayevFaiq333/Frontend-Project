@@ -17,7 +17,7 @@ main .contactUs .breadCrumbs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 27px 0 13px;
+  padding: 27px 0 8px;
   color: #787878;
   font-size: 13px;
 }
@@ -55,7 +55,9 @@ main .contactUs .link {
 }
 
 main .contactUs .btnSubmit {
+  margin-top: 20px;
   color: white;
+  font-weight: 600;
   padding: 7px 40px;
   border: 1px solid #17a8a3;
   background-color: #17a8a3;
@@ -70,9 +72,55 @@ main .contactUs .btnSample {
   color: black;
   border: 1px solid #787878;
   text-decoration: none;
-  padding: 7px 40px;
+  padding: 7px 35px;
 }
 
 main .contactUs .btnSample:hover {
   border-color: black;
+}
+
+main .contactUs .loginTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 28px;
+  padding-bottom: 15px;
+  text-transform: unset;
+  border-bottom: 1px solid #909195;
+}
+
+main .contactUs #comments {
+  min-height: 180px;
+}
+
+main .contactUs .labels {
+  font-weight: 500;
+  color: #1e1e1e;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: Poppins, sans-serif;
+}
+
+main .contactUs .rte {
+  margin: 20px 0;
+}
+
+main .contactUs .title {
+  margin-bottom: 50px;
+}
+
+main .contactUs h1 {
+  font-size: 2.33333em;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+
+main .contactUs .secondbtn {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .loginTitle {
+    margin-top: 40px;
+  }
 }

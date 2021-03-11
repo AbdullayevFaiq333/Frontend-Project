@@ -29,41 +29,51 @@
         <!-- Contact us section start -->
         <section class="contactUs">
             <div class="container-fluid">
-                <ul class="breadCrumbs">
-                    <li class="">
-                        <a class="home" href="#">Home</a>
-                        <span class="distance">></span>
-                    </li>
-                    <li class="">
-                        <span class="distance">Contact us</span>
-                    </li>
-                </ul>
-                <h1>Contact us</h1>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="title">
+                            <ul class="breadCrumbs">
+                                <li>
+                                    <a class="home" href="#">Home</a>
+                                    <span class="distance">></span>
+                                </li>
+                                <li class="">
+                                    <span class="distance">Contact us</span>
+                                </li>
+                            </ul>
+                            <h1>Contact us</h1>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1">
                         <div class="row">
-                            <div class=" col-sm-6">
+                            <div class=" col-sm-5  offset-sm-1 ">
                                 <div class="rte">
                                     <span class="information">Have a question or comment? Use the form below to send us a message or contact us by mail at:</span>
                                     <a href="#" class="link information">stores@domain.com</a>
                                 </div>
-                                <form action="">
-                                    <label for="name">Your Name</label>
+                                <form id="signUp" action="">
+                                    <label class="labels" for="name">Your Name</label>
                                     <input type="text" name="name" id="name" class="inputs">
-                                    <label for="phone">Phone Number</label>
+                                    <label class="labels" for="phone">Phone Number</label>
                                     <input type="tel" name="phone" id="phone" class="inputs">
-                                    <label for="email">Email Address *</label>
-                                    <input type="email" name="email" id="email" class="inputs" required>
-                                    <label for="comments">Your Comments *</label>
-                                    <textarea name="comments" id="comments" rows="7" required></textarea>
+                                    <label class="labels" for="email">Email Address *</label>
+                                    <input type="email" name="email" id="email" class="inputs">
+                                    <div class="invalid-feedback"></div>
+                                    <label class="labels" for="comments">Your Comments *</label>
+                                    <textarea name="comments" id="comments"></textarea>
+                                    <div class="invalid-feedback"></div>
                                     <input class="btnSubmit" type="submit" value="SUBMIT FORM">
                                 </form>
                             </div>
                             <div class="col-sm-5 offset-sm-1">
-                                <h3>Please do get in touch!</h3>
-                                <hr>
+                                <h3 class="loginTitle">Please do get in touch!</h3>
+
                                 <p class="information">We'd love to hear from you. Please use the form to send us your message or ideas. Or simply pop in for a cup of fresh tea and a cookie:</p>
-                                <p><strong><a href="#" class="btnSample">Sample Button</a></strong></p>
+                                <p class="secondbtn"><strong><a href="#" class="btnSample">Sample Button</a></strong></p>
                                 <div class="item">
 
 
@@ -90,6 +100,8 @@
 
 
     </main>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
